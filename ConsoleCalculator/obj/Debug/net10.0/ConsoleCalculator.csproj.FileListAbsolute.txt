@@ -1,0 +1,14 @@
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.AssemblyInfoInputs.cache
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.AssemblyInfo.cs
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.exe
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.deps.json
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.runtimeconfig.json
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.dll
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\bin\Debug\net10.0\ConsoleCalculator.pdb
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.dll
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\refint\ConsoleCalculator.dll
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.pdb
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ConsoleCalculator.genruntimeconfig.cache
+C:\Users\jacko\Repos\ConsoleCalculator\ConsoleCalculator\obj\Debug\net10.0\ref\ConsoleCalculator.dll
