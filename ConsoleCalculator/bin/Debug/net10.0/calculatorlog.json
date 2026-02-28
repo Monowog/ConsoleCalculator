@@ -1,0 +1,8 @@
+{
+  "Operations": [
+    {
+      "Operand1": 68.0,
+      "Operand2": 0.0,
+      "Operation": "Divide",
+      "Result": "NaN"
+    }
