@@ -1,8 +1,14 @@
 {
   "Operations": [
     {
-      "Operand1": 68.0,
-      "Operand2": 0.0,
+      "Operand1": 120.2,
+      "Operand2": 235.5,
+      "Operation": "Add",
+      "Result": 355.7
+    },
+    {
+      "Operand1": 3245.0,
+      "Operand2": 23.0,
       "Operation": "Divide",
-      "Result": "NaN"
+      "Result": 141.08695652173913
     }

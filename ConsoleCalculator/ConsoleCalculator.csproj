@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CalculatorLibrary\CalculatorLibrary.csproj" />
+    <ProjectReference Include="..\OperationLog\OperationLog.csproj" />
   </ItemGroup>
 
 </Project>

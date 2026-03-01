@@ -6,6 +6,7 @@ namespace CalculatorLibrary
     {
 
         JsonWriter writer;
+        private int uses;
 
         public Calculator()
         {
@@ -56,6 +57,7 @@ namespace CalculatorLibrary
             writer.WriteValue(result);
             writer.WriteEndObject();
 
+            uses++;
             return result;
         }
 
@@ -64,6 +66,16 @@ namespace CalculatorLibrary
             writer.WriteEndArray();
             writer.WriteEndObject();
             writer.Close();
+        }
+
+        public int getUses()
+        {
+            return uses;
+        }
+
+        public void setUses(int input)
+        {
+            uses = input;
         }
     }
 }

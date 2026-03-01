@@ -15,27 +15,27 @@ namespace CalculatorProgram
             Calculator calculator = new Calculator();
             while (!endApp)
             {
-                string? numInput1 = "";
-                string? numInput2 = "";
-                double result = 0;
+                string? numInput1;
+                string? numInput2;
+                double result;
 
-                Console.Write("Type a number, and then press Enter: ");
+                Console.Write("Type a number, then press Enter: ");
                 numInput1 = Console.ReadLine();
 
-                double cleanNum1 = 0;
+                double cleanNum1;
                 while (!double.TryParse(numInput1, out cleanNum1))
                 {
-                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    Console.Write("This is not valid input. Please enter an numeric value: ");
                     numInput1 = Console.ReadLine();
                 }
 
-                Console.Write("Type another number, and then press Enter: ");
+                Console.Write("Type another number, then press Enter: ");
                 numInput2 = Console.ReadLine();
 
-                double cleanNum2 = 0;
+                double cleanNum2;
                 while (!double.TryParse(numInput2, out cleanNum2))
                 {
-                    Console.Write("This is not valid input. Please enter an integer value: ");
+                    Console.Write("This is not valid input. Please enter a numeric value: ");
                     numInput2 = Console.ReadLine();
                 }
 
@@ -69,8 +69,11 @@ namespace CalculatorProgram
                    }
                 }
                 Console.WriteLine("------------------------\n");
-                Console.Write("Press 'n' and Enter to close the app, or press any other key and Enter to continue: ");
-                if (Console.ReadLine() == "n") endApp = true;
+                Console.Write("Type 'q' to close the app, 'n' to display total # of uses, or press any other key and Enter to continue: ");
+
+                string? next = Console.ReadLine();
+                if (next == "n") Console.WriteLine($"# of Equations: {calculator.getUses()}");
+                if (next == "q") endApp = true;
 
                 Console.WriteLine("\n"); 
             }
